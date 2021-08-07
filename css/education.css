@@ -207,15 +207,6 @@
 }
 @media screen and (max-width: 1200px)
 {
-    .main-content .content .name-email
-    {
-        margin:3%0%;
-        
-    }
-    .main-content .otherinfo
-    {
-        margin:0% 16%
-    }
     .header .links
     {
         float:right;
@@ -233,6 +224,8 @@
     {
         font-size: small;
     }
+
+    
     .main-content .otherinfo
     {
         margin:1%0%;
