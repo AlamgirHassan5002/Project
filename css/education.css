@@ -231,4 +231,9 @@
         margin:1%0%;
         width:auto;
     }
+      .main-content .content .name-email
+    {
+        margin:3%0%;
+     font-size: small;   
+    }
 }
