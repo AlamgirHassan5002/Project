@@ -100,7 +100,7 @@
 
 .main-content .content .profile-picture
 {
-    height:auto;
+    height:200px;
     width:300px;
     max-width:40%;
     float:left;
@@ -246,6 +246,11 @@
     {
         margin:4%0%;
         font-size: small;   
+    }
+    .main-content .content .profile-picture
+    {
+        height:100px;
+        width:200px;
     }
     
 }
