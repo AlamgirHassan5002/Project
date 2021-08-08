@@ -83,6 +83,7 @@
 .header .dropdown-content a:link,.header .dropdown-content a:active,.header .dropdown-content a:visited,.header .dropdown-content a:hover
 {
     color:white;
+    text-decoration: none;
 }
 .main-content
 {
@@ -116,6 +117,18 @@
     vertical-align: middle;
     
 }
+.main-content .content .address-mobile-number
+{
+    display: inline-block;
+    width:auto;
+    background-color: #8080ff;
+    text-align: left;
+    margin: top 50%;
+    padding:0px 3px;
+    vertical-align: middle;
+    font-size: small;
+    
+}
 .main-content .otherinfo
 {   display:block;
     margin:-30px 16%;
@@ -127,6 +140,10 @@
 {
     display: flex;
     justify-content: center;
+}
+.main-content .heading-tag .heading
+{
+    font-family: 'Atkinson Hyperlegible', sans-serif;
 }
 .header .links .active
 {
@@ -152,20 +169,16 @@
 .main-content .contact-info form .contact-details
 {
     margin:1%2%;
+    padding:0%1%;
 }
-.main-content .contact-info form .contact-details label
-{
-    
-    float:left;
-    font-family: 'Atkinson Hyperlegible', sans-serif;
-    
-}
+
 .main-content .contact-info form .contact-details input
 {
    
   
   width: 100%;
   clear: both;
+  padding:1%1%;
    
 }
 .main-content .contact-info form .contact-details textarea
@@ -174,7 +187,7 @@
     
     width: 100%;
     clear: both;
-    
+    padding:1%1%;
    
 }
 .main-content .contact-info form  .submitbtn
@@ -238,9 +251,14 @@
         margin:1%0%;
         width:auto;
     }
-      .main-content .content .name-email
+    .main-content .content .name-email
     {
         margin:3%0%;
      font-size: small;   
+    }
+    .main-content .content .address-mobile-number
+    {
+        margin: 2%0%;
+        font-size: x-small;
     }
 }
