@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital@1&display=swap');
 *
 {
     margin:0% 0%;
@@ -16,6 +17,10 @@
     width:120px;
     max-width: 20%;
     margin: 1%6%;
+}
+.main-content .heading-tag .heading
+{
+    font-family: 'Atkinson Hyperlegible', sans-serif;
 }
 .header .links
 {
@@ -81,6 +86,7 @@
 .header .dropdown-content a:link,.header .dropdown-content a:active,.header .dropdown-content a:visited,.header .dropdown-content a:hover,.header .dropdown .dropbtn a
 {
     color:white;
+    text-decoration: none;
 }
 .main-content
 {
@@ -97,7 +103,7 @@
 
 .main-content .content .profile-picture
 {
-    height:auto;
+    height:200px;
     width:300px;
     max-width:40%;
     float:left;
