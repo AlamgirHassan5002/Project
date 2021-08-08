@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital@1&display=swap');
 *
 {
     margin:0% 0%;
@@ -81,6 +82,7 @@
 .header .dropdown-content a:link,.header .dropdown-content a:active,.header .dropdown-content a:visited,.header .dropdown-content a:hover,.header .dropdown .dropbtn a
 {
     color:white;
+    text-decoration: none;
 }
 
 .main-content
@@ -138,6 +140,10 @@
     text-align: center;
     background-color: #0000ff;
     display: inline;
+}
+.main-content .heading-tag .heading
+{
+    font-family: 'Atkinson Hyperlegible', sans-serif;
 }
 .main-content .small-heading
 {
@@ -207,6 +213,11 @@
 }
 @media screen and (max-width: 1200px)
 {
+    .main-content .education-level-info h2
+    {
+        font-weight: normal;
+        font-size: small;
+    }
     .header .links
     {
         float:right;
@@ -236,4 +247,5 @@
         margin:4%0%;
         font-size: small;   
     }
+    
 }
